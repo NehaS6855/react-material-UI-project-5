@@ -1,0 +1,52 @@
+/** @format */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.MuiAppBar-root {
+  background-color: #333;
+  color: #fff;
+}
+
+.MuiTypography-h6 {
+  font-size: 18px;
+}
+
+.MuiList-root {
+  padding: 0;
+}
+
+.MuiListItem-root {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.MuiListItemText-primary {
+  font-weight: bold;
+}
+
+.MuiListItemText-secondary {
+  color: #666;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
